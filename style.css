@@ -1,0 +1,19 @@
+#header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+#header-img img {
+  height: 100px;
+  max-height: 100px;
+  width: auto;
+}
+
+ul #links li {
+  display: inline-block;
+}
+
+.nav-link {
+  position: relative;
+}
