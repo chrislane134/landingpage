@@ -4,17 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Company Landing Page</title>
   </head>
   <body>
     <header id="header">
-      <div id="header-img"><img src="images/Cloud 9-logo.png" /></div>
-      <nav id="Nav-bar">
-        <ul id="links">
-          <li class="nav-link"><a href="#">Book</a></li>
-          <li class="nav-link"><a href="#">About</a></li>
-          <li class="nav-link"><a href="#">Contact</a></li>
+      <nav class="navBar">
+        <div id="header-img"><img src="images/Cloud 9-logo.png" /></div>
+        <ul class="links">
+          <li class="nav-link"><a href="#">Home </a></li>
+
+          <li class="nav-link"><a href="#">How It Works</a></li>
+          <li class="nav-link"><a href="#">Our Customers</a></li>
+          <li class="nav-link"><a href="#">About Us</a></li>
+          <li class="nav-link"><a href="#">Contact Us</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </header>
 
@@ -30,5 +42,7 @@
       <input type="text" placeholder="Enter Email" name="email" required />
       <button type="submit" class="submit">Sign Up</button>
     </form>
+
+    <script src="nav.js"></script>
   </body>
 </html>
