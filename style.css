@@ -123,9 +123,10 @@ img {
 }
 
 .headline {
-  flex-grow: 1;
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   background-color: #e4f0f4;
-  padding: 8.7%;
+  padding-top: 2.5em;
+  padding-left: 1.5em;
+  font-family: "Poppins", sans-serif;
 }
