@@ -174,3 +174,10 @@ a.button1:hover {
   );
   -webkit-background-size: 49px 100%;
 }
+
+/********WHAT IS SECTIONS WITH VIDEO ******/
+
+.whatIs {
+  display: flex;
+  justify-content: space-around;
+}
