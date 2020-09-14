@@ -161,6 +161,7 @@ a.button1:hover {
 .scallop-down {
   height: 100px;
   width: 100%;
+
   background: -webkit-gradient(
     radial,
     50% 0,
@@ -179,5 +180,27 @@ a.button1:hover {
 
 .whatIs {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
+
+.description {
+  text-align: center;
+}
+
+#title {
+  font-size: 3.5rem;
+  padding-bottom: 50px;
+}
+
+#cloudDescription {
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 1.7em;
+}
+
+iframe {
+  margin: 15px;
+}
+
+/****************FEATURES**********************/
