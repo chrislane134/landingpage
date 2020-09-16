@@ -204,3 +204,26 @@ iframe {
 }
 
 /****************FEATURES**********************/
+
+.cloud-section-header h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 4em;
+}
+.cloud {
+  margin-left: 2%;
+  margin-top: 40px;
+}
+
+.cloud-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.icons {
+  padding-left: 260px;
+  padding-bottom: 30px;
+}
