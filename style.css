@@ -158,6 +158,23 @@ a.button1:hover {
   background-color: #4095c6;
 }
 
+.scallop-up {
+  height: 100px;
+  width: 100%;
+  background: -webkit-gradient(
+    radial,
+    50% 100%,
+    10,
+    50% 100%,
+    40,
+    from(#e4f0f4),
+    color-stop(0.49, #e4f0f4),
+    color-stop(0.51, #fff),
+    to(white)
+  );
+  -webkit-background-size: 49px 100%;
+}
+
 .scallop-down {
   height: 100px;
   width: 100%;
@@ -204,6 +221,10 @@ iframe {
 }
 
 /****************FEATURES**********************/
+.features {
+  background-color: #e4f0f4;
+  padding-top: 1%;
+}
 
 .cloud-section-header h1 {
   text-align: center;
@@ -211,8 +232,7 @@ iframe {
   font-size: 4em;
 }
 .cloud {
-  margin-left: 2%;
-  margin-top: 40px;
+  background-color: #e4f0f4;
 }
 
 .cloud-grid {
@@ -221,9 +241,17 @@ iframe {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
   text-align: center;
+  padding-top: 30px;
 }
 
 .icons {
   padding-left: 260px;
   padding-bottom: 30px;
+}
+
+.feature-text {
+  padding-left: 27%;
+  padding-right: 27%;
+  font-size: 1.5em;
+  margin-top: 15px;
 }
