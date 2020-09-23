@@ -151,7 +151,6 @@ a.button1 {
   background-color: #4eb5f1;
   text-align: center;
   transition: all 0.2s;
-  z-index: 2;
 }
 
 a.button1:hover {
@@ -238,14 +237,15 @@ iframe {
 .cloud-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 20px;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 5%;
 }
 
 .icons {
-  padding-left: 260px;
+  padding-left: 268px;
   padding-bottom: 30px;
 }
 
@@ -254,4 +254,15 @@ iframe {
   padding-right: 27%;
   font-size: 1.5em;
   margin-top: 15px;
+}
+
+#email {
+  padding-left: 42%;
+  padding-bottom: 15%;
+  background-color: #e4f0f4;
+}
+
+.signUp {
+  margin-left: 45%;
+  padding-bottom: 20px;
 }
