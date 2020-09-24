@@ -257,7 +257,7 @@ iframe {
 }
 
 #email {
-  padding-left: 42%;
+  padding-left: 41%;
   padding-bottom: 15%;
   background-color: #e4f0f4;
 }
@@ -265,4 +265,31 @@ iframe {
 .signUp {
   margin-left: 45%;
   padding-bottom: 20px;
+}
+
+#textbox {
+  margin-bottom: 5px;
+}
+
+.submit {
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 10px;
+  display: block;
+  transition: all 0.4s ease 0s;
+  margin-left: 115px;
+}
+
+.submit:hover {
+  color: #ffffff;
+  background: #f6b93b;
+  transition: all 0.4s ease 0s;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
 }
