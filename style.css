@@ -300,3 +300,11 @@ input {
   height: 30px;
   text-align: center;
 }
+
+/*******MEDIA QUERIES*****/
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
