@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header {
@@ -19,7 +20,7 @@
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  font-family: "Poppins", sans-serif;
+
   background-color: ghostwhite;
 }
 
@@ -39,6 +40,11 @@
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 14px;
+}
+
+.links :hover {
+  color: #f6b93b;
+  transition: all 0.4s ease 0s;
 }
 
 .burger {
@@ -150,11 +156,12 @@ a.button1 {
   color: #ffffff;
   background-color: #4eb5f1;
   text-align: center;
-  transition: all 0.2s;
+  transition: all 0.4s ease 0s;
 }
 
 a.button1:hover {
-  background-color: #4095c6;
+  background-color: #f6b93b;
+  transition: all 0.4s ease 0s;
 }
 
 .scallop-up {
